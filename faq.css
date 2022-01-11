@@ -1,9 +1,11 @@
- .attribution {
- 	font-size: 11px; text-align: center
+ footer {
+ 	font-size: 11px; text-align: center;
+	 color: #fff;
+	 margin-top: 5px
  }
 
- .attribution a {
- 	color: hsl(228, 45%, 44%)
+ footer a {
+ 	color: hsl(108, 92%, 50%)
  }
 
  :root{
@@ -23,14 +25,17 @@
  	font-family: Kumbh Sans, sans-serif;
  	display: flex;
  	align-items:center;
+	 justify-content: center;
  	flex-direction: column;
- 	background: var(--SoftViolet);
+ 	background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+	background-repeat: no-repeat;
+	background-size: cover;
  }
 
- .card{
+ main{
  	height: 550px;
  	width:900px;
- 	margin-top: 100px;
+ 	margin: 129px;
  	display: flex;
  	background: #fff;
  	background-image: url(images/bg-pattern-desktop.svg);
@@ -60,7 +65,7 @@
  	font-weight: 700;
  }
 
- h3{
+ h2{
  	color: var(--DarkGrayishBlue);
  	font-size: 16px;
  	font-weight: 400;
@@ -78,7 +83,7 @@
  	justify-content: space-between;
  }
 
- .active h3{
+ .active h2{
     font-weight: 700;
  }
 
@@ -118,7 +123,7 @@
  	background-position: 350% center
  }
 
- .question>h3:hover {
+ .question>h2:hover {
  	color:var(--SoftRed);
  	cursor: pointer;
  }
