@@ -1,7 +1,7 @@
  footer {
  	font-size: 11px; text-align: center;
 	 color: #fff;
-	 margin-top: 5px
+	 transform: translate(0, -100px);
  }
 
  footer a {
@@ -21,21 +21,20 @@
  @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
 
  body{
- 	margin: 0;
  	font-family: Kumbh Sans, sans-serif;
  	display: flex;
  	align-items:center;
-	 justify-content: center;
+	justify-content: center;
  	flex-direction: column;
  	background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: cover
  }
 
  main{
  	height: 550px;
  	width:900px;
- 	margin: 129px;
+ 	margin: 126px;
  	display: flex;
  	background: #fff;
  	background-image: url(images/bg-pattern-desktop.svg);
